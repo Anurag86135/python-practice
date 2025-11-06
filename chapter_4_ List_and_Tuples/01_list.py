@@ -1,4 +1,4 @@
-# ?ptython lists are containers to store a set of values of any data type.
+# ptython lists are containers to store a set of values of any data type.
 friends =["Apple","Orange",5,345.06,False,"Akash","Rohan"]
 
 print(friends[0])
