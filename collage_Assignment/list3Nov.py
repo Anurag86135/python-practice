@@ -24,8 +24,8 @@ print(Third_list)'''
 # NOV 6 
 #sorted()//copy nabata hai assign karna padega
 # sort()//usi list me sort kardega
-list=["banana","apple","mango","kiwi","graphes"]
-num=[22,33,22,44,55,11]
+# list=["banana","apple","mango","kiwi","graphes"]
+# num=[22,33,22,44,55,11]
 # print(list[0])
 # print(num[0])
 # print(list[-1])#//end wala print hoga
@@ -81,8 +81,8 @@ num=[22,33,22,44,55,11]
 
 # min max
 
-print(max(num))
-print(min(num))
+# print(max(num))
+# print(min(num))
 # count=0
 # for i in num:
 #     if(i ==22):
@@ -104,7 +104,7 @@ print(min(num))
 #         break
 
 # Reverse the list
-list=["banana","apple","mango","kiwi","graphes"]
+# list=["banana","apple","mango","kiwi","graphes"]
 
 # list.reverse()
 # print(list)
@@ -130,3 +130,72 @@ list=["banana","apple","mango","kiwi","graphes"]
 
 
 # print(num[0:4])(lst)
+
+# 10 Nov
+
+# list=[2,3,2,4,3,5,5]#
+# seen=[]
+# out=[]
+# for x in list:
+#     if x not in seen:
+#      seen.append(x)
+#      out.append(x)
+# print(out) #[2,3,4,5]
+
+
+# find two numbers whoes sum is that target number we have to find the index of these two numbers
+nums = [2, 4, 3, 6, 7]   # Example list
+# target = 10
+# ans=None
+# for i in range(len(nums)):
+#     for j in range(i + 1, len(nums)):
+#         if nums[i] + nums[j] == target:
+#             ans=[i,j]
+#             break
+#     if ans:break
+# print(ans)
+
+# Write a programs in which you need to calculate the sum of every two previous consistent numbers till last print each steps
+# sum=0
+# for i in nums:
+#     sum+=i
+
+#     print(sum)
+
+
+
+# Write a program in which we need to take all zero's of the list and put all zero's into last of the list
+# list=[0,1,2,0,0,2,4]
+# out=[]
+# zero=0
+# for i in list:
+#     if i==0:
+#         zero+=1
+#     else:
+#         out.append(i)
+
+# print(out)
+
+# for i in range(zero):
+#     out.append(0)
+# print(out)
+
+
+# write a program in which you will find every term which holds 'a' character inside itself that words and return its count
+
+list=["Ram","Shyam","Anurag","hello"]
+count=0
+for i in list:
+    for char in i:
+        if char == 'a':
+            print("a is present in", i)
+            count+=1
+            break
+
+print(count)
+
+        
+
+
+
+
