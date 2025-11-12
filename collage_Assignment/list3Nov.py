@@ -184,16 +184,23 @@ nums = [2, 4, 3, 6, 7]   # Example list
 # write a program in which you will find every term which holds 'a' character inside itself that words and return its count
 
 list=["Ram","Shyam","Anurag","hello"]
-count=0
+# count=0
+# for i in list:
+#     for char in i:
+#         if char == 'a':
+#             print("a is present in", i)
+#             count+=1
+#             break
+
+# print(count)
+
+count =0
+
 for i in list:
-    for char in i:
-        if char == 'a':
-            print("a is present in", i)
-            count+=1
-            break
+    if 'a' in i:
+        count+=1
 
 print(count)
-
         
 
 
