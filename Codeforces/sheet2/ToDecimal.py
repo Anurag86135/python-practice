@@ -1,3 +1,5 @@
+#Converting to decimal
+
 Num=int(input())
 
 for i in range(Num):
