@@ -4,11 +4,11 @@ def Divisor(num):
     total=0
     divisors =[]
 
-    for i in range(1,num+1):
+    for i in range(1,int(num**0.5)+1):
         if num%i==0:
-            divisors.append(i)
-    for i in divisors:
-        total+=i
+            total+=i
+            if i!=num//i:
+                total+=num//i
     
     print(total)
 
